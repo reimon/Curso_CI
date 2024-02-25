@@ -16,13 +16,7 @@ jobs:
     - name: Docker Login
       uses: docker/login-action@v3.0.0
       with:
-        registry: # optional
         
         username: reimon
        
         password: ${{ secrets.DOCKER_HUB_PASS}}
-        
-        ecr: # optional, default is auto
-       
-        logout: # optional, default is true
-              
